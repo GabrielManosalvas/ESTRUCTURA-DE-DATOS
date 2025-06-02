@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="proyecto_estructuras" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/proyecto_estructuras" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++17" />
+					<Add option="-g" />
+					<Add directory="SFML/include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+					<Add directory="SFML/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/proyecto_estructuras" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="controller/ColaController.cpp" />
+		<Unit filename="controller/ColaController.hpp" />
+		<Unit filename="controller/ListaController.cpp" />
+		<Unit filename="controller/ListaController.hpp" />
+		<Unit filename="controller/MenuController.cpp" />
+		<Unit filename="controller/MenuController.hpp" />
+		<Unit filename="controller/PilaController.cpp" />
+		<Unit filename="controller/PilaController.hpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="model/Cola.cpp" />
+		<Unit filename="model/Cola.hpp" />
+		<Unit filename="model/Lista.cpp" />
+		<Unit filename="model/Lista.hpp" />
+		<Unit filename="model/Nodo.cpp" />
+		<Unit filename="model/Nodo.hpp" />
+		<Unit filename="model/Pila.cpp" />
+		<Unit filename="model/Pila.hpp" />
+		<Unit filename="view/ColaView.cpp" />
+		<Unit filename="view/ColaView.hpp" />
+		<Unit filename="view/ListaView.cpp" />
+		<Unit filename="view/ListaView.hpp" />
+		<Unit filename="view/MenuView.cpp" />
+		<Unit filename="view/MenuView.hpp" />
+		<Unit filename="view/PilaView.cpp" />
+		<Unit filename="view/PilaView.hpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
