@@ -4,7 +4,7 @@
 ## PROYECTO – 1ER PARCIAL
 
 
-## ESTUDIANTE(S)
+## INTEGRANTES:
 
 - **Armijos Macas Enzo Alberto**
 - **Gutierrez Vargas Juan Felipe**
